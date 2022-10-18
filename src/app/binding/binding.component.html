@@ -1,0 +1,14 @@
+<p>binding works!</p>
+<p>----------------------------</p>
+<h3>String Interpolation</h3>
+<p>this is a string from interpolation : {{ titre }} </p>
+<p>----------------------------</p>
+<h3>Property Binding</h3>
+<p [style]="color">this style was set with property binding</p>
+<p>----------------------------</p>
+<h3>Event Binding</h3>
+<button (click)="clickFunction()">switch color</button>
+<p>----------------------------</p>
+<h3>Two Way Binding</h3>
+<input type="text" [(ngModel)] = "nom">
+<p>Bonjour {{ nom }}</p>
